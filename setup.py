@@ -6,7 +6,7 @@ with open("README.md") as fp:
 
 
 setuptools.setup(
-    name="bootcamp_data_platform",
+    name="data_platform",
     version="0.0.1",
 
     description="An empty CDK Python app",
@@ -15,11 +15,11 @@ setuptools.setup(
 
     author="author",
 
-    package_dir={"": "bootcamp_data_platform"},
-    packages=setuptools.find_packages(where="bootcamp_data_platform"),
+    package_dir={"": "data_platform"},
+    packages=setuptools.find_packages(where="data_platform"),
 
     install_requires=[
-        "aws-cdk.core==1.91.0",
+        "aws-cdk.core==1.92.0",
     ],
 
     python_requires=">=3.6",
